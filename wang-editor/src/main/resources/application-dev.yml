@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    driver-class-name: ${dev.db.driver-class-name}
+    url: ${dev.db.url}
+    username: ${dev.db.username}
+    password: ${dev.db.password}
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8888
