@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>wang-editor</module>
+        <module>spring-statemachine</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -20,6 +21,7 @@
         <alibaba.druid.version>1.2.8</alibaba.druid.version>
         <lombok.version>1.18.22</lombok.version>
         <hutool.version>5.7.15</hutool.version>
+        <spring.statemachine.version>3.0.1</spring.statemachine.version>
     </properties>
 
     <dependencyManagement>
@@ -59,6 +61,12 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.statemachine</groupId>
+                <artifactId>spring-statemachine-starter</artifactId>
+                <version>${spring.statemachine.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
