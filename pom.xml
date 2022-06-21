@@ -17,7 +17,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <spring.boot.version>2.5.12</spring.boot.version>
-        <mysql.version>8.0.27</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <alibaba.druid.version>1.2.8</alibaba.druid.version>
         <lombok.version>1.18.22</lombok.version>
         <hutool.version>5.7.15</hutool.version>
